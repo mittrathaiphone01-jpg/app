@@ -112,9 +112,9 @@ const authOptions: AuthOptions = {
                         };
                     }
 
+                    return null;
 
-
-                    // if (credentials?.username === 'aaa' && credentials?.password === "aaa") {
+                             // if (credentials?.username === 'aaa' && credentials?.password === "aaa") {
                     //     console.log("User authorized successfully:");
 
                     //     return {
@@ -126,9 +126,6 @@ const authOptions: AuthOptions = {
                     //         accessTokenExpires:  60 * 1000,
                     //     };
                     // }
-
-
-                    return null;
 
                 } catch (error) {
                     console.error("Authorize error:", error);

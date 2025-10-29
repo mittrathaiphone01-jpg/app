@@ -40,13 +40,13 @@ export const NAV_DATA = [
         url: "/member/users",
         items: [],
       },
-       {
+      {
         title: "ข้อมูลประเภทสินค้า",
         icon: Icons.PieChart,
         url: "/member/product-type",
         items: [],
       },
-       {
+      {
         title: "ข้อมูลสินค้า",
         icon: Icons.Alphabet,
         url: "/member/products",
@@ -56,9 +56,9 @@ export const NAV_DATA = [
     ],
   },
 
-    {
+  {
     label: "SYSTEMS",
-    roles: [1,2],
+    roles: [1, 2],
     items: [
       {
         title: "ผ่อน",
@@ -66,13 +66,28 @@ export const NAV_DATA = [
         url: "/member/rent",
         items: [],
       },
-            {
+      {
         title: "ไอโฟนแลกเงิน",
         icon: Icons.ArrowLeftIcon,
         url: "/member/installment",
         items: [],
       },
+
+    ],
+  },
+
+    {
+    label: "OTHER",
+    roles: [1, 2],
+    items: [
+      {
+        title: "กฏของระบบ",
+        icon: Icons.Calendar,
+        url: "/member/other/rules",
+        items: [],
+      },
       
+
     ],
   },
 
